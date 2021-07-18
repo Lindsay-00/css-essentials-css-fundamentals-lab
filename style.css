@@ -15,14 +15,29 @@ img {
 }
 
 nav a {
+ 
   background-color: grey;
   margin-right: 10px;
   margin-left: 10px;
-  text-align: center;
+  
 
 }
 
-p#property{
+figcaption {
   text-align: center;
+  font-size: 12px;
+}
+
+#featured-property p {
   width: 800px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#details div {
+  float: left;
+  margin: auto;
 }
